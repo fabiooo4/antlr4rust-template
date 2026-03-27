@@ -32,6 +32,7 @@ fn find_antlr_jar() -> PathBuf {
         "/usr/local/lib/antlr4-4.8-2-SNAPSHOT-complete.jar",
         "/opt/homebrew/lib/antlr4-4.8-2-SNAPSHOT-complete.jar",
         "/usr/local/Cellar/antlr/4.8/antlr4-4.8-2-SNAPSHOT-complete.jar",
+        "./antlr4-4.8-2-SNAPSHOT-complete.jar",
     ];
 
     for path in fallback_paths {
