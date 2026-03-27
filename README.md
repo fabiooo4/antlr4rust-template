@@ -12,7 +12,7 @@ gh repo create --template fabiooo4/antlr4rust-template <repo-name>
 ```
 
 2. Download required dependencies:
-   - [antlr4 fork with Rust target support](https://github.com/rrevenantt/antlr4rust/releases/tag/antlr4-4.8-2-Rust0.3.0-beta)
+   - [antlr4 fork with Rust target support version 0.3.0-beta](https://github.com/rrevenantt/antlr4rust/releases/tag/antlr4-4.8-2-Rust0.3.0-beta)
    - Java JDK
 
 3. Add the path to the antlr4 jar file to the `ANTLR_JAR` environment variable
