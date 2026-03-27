@@ -62,8 +62,7 @@ fn print_tree(mode: &str, input: &str) -> Result<(), Box<dyn Error>> {
 
     // Write the user's string directly into the Java tool's stdin
     if let Some(mut stdin) = child.stdin.take() {
-        let input_with_newline = format!("{}\n", input);
-        stdin.write_all(input_with_newline.as_bytes())
+        stdin.write_all(input.as_bytes())
             .expect("Failed to write to stdin");
     }
 
